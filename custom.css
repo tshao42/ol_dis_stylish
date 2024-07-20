@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body * {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12pt;
+}
+.discourse-tags{
+  border-radius: 5%;
+}
+.title{
+  width: 150px; /* or any desired pixel value */
+  height: auto;
+}
+.discourse-tag.simple{
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1em;
+}
+.d-header-icons.icon{
+font-size: 15pt;
+}
+.title--minimized {
+	/*Your code should go under this comment*/
+  width: 5px;
+}
+
+#btn.btn-icon-text.btn-default:hover {
+	/*Your code should go under this comment*/
+  cursor: pointer;
+  background-color: #282A36;
+  color: #F8F8F2;
+}
+.quote > .title {
+	/*Your code should go under this comment*/
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  min-width: fit-content;
+  height: 2.5em;
+}
+.d-icon-chevron-down{
+	/*Your code should go under this comment*/
+  margin-left: 5px;
+}
+.svg-icon-title > .d-icon-chevron-up {
+	/*Your code should go under this comment*/
+    margin-left: 5px;
+
+}
+.btn.btn-icon-text.btn-default:hover{
+  background-color: color(--d-hover);
+}
+.select-kit-header.single-select-header:hover{
+  background-color: color(--d-hover);
+}
+
+.sidebar-sections {
+	/*Your code should go under this comment*/
+  min-width: fit-content;
+}
+#ember3 {
+	/*Your code should go under this comment*/
+}
+
+#main-outlet-wrapper {
+	/*Your code should go under this comment*/
+  resize:  horizontal;
+}
+.fa.d-icon.d-icon-circle {
+	/*Your code should go under this comment*/
+  height: 0.6em;
+  transform: translateY(1px) translateX(-3px);
+}
+.btn.btn-icon-text:hover{
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.btn.btn-icon-text{
+  border-radius: 5px;
+}
+.sidebar-section-link-wrapper:hover{
+  background-color: var(--d-selected);
+}
+#d-sidebar{
+  min-width: fit-content;
+}
+.main-outlet-wrapper{
+}
+.topic-excerpt-more:hover{
+  color: var(--quaternary);
+}
+.contents .fa.d-icon.svg-icon{
+  height: 0.7em;
+}
+.contents .fa.d-icon.svg-icon:hover,
+.fa.d-icon:not(.sidebar-sections):hover {
+  color: var(--d-selected);
+}
