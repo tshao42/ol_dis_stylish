@@ -4,11 +4,14 @@ body * {
   font-family: 'Noto Sans', sans-serif;
   font-size: 12pt;
 }
+label{
+    font-family: 'Noto Sans', sans-serif;
+}
 .discourse-tags{
   border-radius: 5%;
 }
 .title{
-  width: 150px; /* or any desired pixel value */
+  width: 150px;
   height: auto;
 }
 .discourse-tag.simple{
@@ -21,31 +24,25 @@ body * {
 font-size: 15pt;
 }
 .title--minimized {
-	/*Your code should go under this comment*/
   width: 5px;
 }
 
 #btn.btn-icon-text.btn-default:hover {
-	/*Your code should go under this comment*/
   cursor: pointer;
   background-color: #282A36;
   color: #F8F8F2;
 }
 .quote > .title {
-	/*Your code should go under this comment*/
   margin-bottom: 5px;
   padding-bottom: 10px;
   min-width: fit-content;
   height: 2.5em;
 }
 .d-icon-chevron-down{
-	/*Your code should go under this comment*/
   margin-left: 5px;
 }
 .svg-icon-title > .d-icon-chevron-up {
-	/*Your code should go under this comment*/
     margin-left: 5px;
-
 }
 .btn.btn-icon-text.btn-default:hover{
   background-color: color(--d-hover);
@@ -53,27 +50,19 @@ font-size: 15pt;
 .select-kit-header.single-select-header:hover{
   background-color: color(--d-hover);
 }
-
 .sidebar-sections {
-	/*Your code should go under this comment*/
   min-width: fit-content;
 }
-#ember3 {
-	/*Your code should go under this comment*/
-}
-
 #main-outlet-wrapper {
-	/*Your code should go under this comment*/
   resize:  horizontal;
 }
 .fa.d-icon.d-icon-circle {
-	/*Your code should go under this comment*/
   height: 0.6em;
   transform: translateY(1px) translateX(-3px);
 }
-.btn.btn-icon-text:hover{
-  background-color: var(--primary);
-  color: var(--secondary);
+.btn.btn-icon-text:not(.btn-flat.btn-text.add-link):hover {
+  color: var(--d-selected);
+  background-color: #e45735;
 }
 .btn.btn-icon-text{
   border-radius: 5px;
@@ -84,8 +73,6 @@ font-size: 15pt;
 #d-sidebar{
   min-width: fit-content;
 }
-.main-outlet-wrapper{
-}
 .topic-excerpt-more:hover{
   color: var(--quaternary);
 }
@@ -94,5 +81,25 @@ font-size: 15pt;
 }
 .contents .fa.d-icon.svg-icon:hover,
 .fa.d-icon:not(.sidebar-sections):hover {
-  color: var(--d-selected);
+ color: var(--d-selected);
+}
+#main-outlet{
+  padding-left: 0;
+}
+.chat-replying-indicator__text{
+  font-size: 0.8em;
+}
+.chat-replying-indicator__wave{
+  transform: translateY(0.3px) translateX(0.5px);
+}
+.title.raw-link.raw-topic-link:hover,
+.badge-category__name:hover{
+  color: var(--primary-high);
+}
+
+:root{
+  --d-sidebar-width: 350px;
+}
+.btn.btn-icon-text.fk-d-menu__trigger:hover{
+  cursor: pointer;
 }
