@@ -1,0 +1,127 @@
+:root{
+  --scheme-type: light;
+    --primary: #1A4B84; /* Deep Sky Blue */
+    --secondary: #F0F8FF; /* Alice Blue */
+    --tertiary: #4682B4; /* Steel Blue */
+    --quaternary: #87CEEB; /* Sky Blue */
+    --header_background: #E6F3FF; /* Very Light Blue */
+    --header_primary: #2C3E50; /* Dark Blue Gray */
+    --highlight: #FFD700; /* Gold */
+    --danger: #FF6347; /* Tomato */
+    --success: #3CB371; /* Medium Sea Green */
+    --love: #FF69B4; /* Hot Pink */
+    --d-selected: #B0E0E6; /* Powder Blue */
+    --d-hover: #E0F4FF; /* Very Light Sky Blue */
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 26, 75, 132;
+    --primary-low-rgb: 224, 244, 255;
+    --primary-very-low-rgb: 240, 248, 255;
+    --secondary-rgb: 240, 248, 255;
+    --header_background-rgb: 230, 243, 255;
+    --tertiary-rgb: 70, 130, 180;
+    --highlight-rgb: 255, 215, 0;
+    --success-rgb: 60, 179, 113;
+    --primary-very-low: #F0F8FF; /* Alice Blue */
+    --primary-low: #E0F4FF; /* Very Light Sky Blue */
+    --primary-low-mid: #B0E0E6; /* Powder Blue */
+    --primary-medium: #6495ED; /* Cornflower Blue */
+    --primary-high: #4682B4; /* Steel Blue */
+    --primary-very-high: #2C3E50; /* Dark Blue Gray */
+    --primary-50: #F0F8FF;
+    --primary-100: #E0F4FF;
+    --primary-200: #B0E0E6;
+    --primary-300: #87CEEB;
+    --primary-400: #6495ED;
+    --primary-500: #4682B4;
+    --primary-600: #1A4B84;
+    --primary-700: #15395F;
+    --primary-800: #10273A;
+    --primary-900: #0B1521;
+    --header_primary-low: #E0F4FF;
+    --header_primary-low-mid: #B0E0E6;
+    --header_primary-medium: #6495ED;
+    --header_primary-high: #4682B4;
+    --header_primary-very-high: #2C3E50;
+    --secondary-low: #4682B4;
+    --secondary-medium: #87CEEB;
+    --secondary-high: #B0E0E6;
+    --secondary-very-high: #E0F4FF;
+    --tertiary-very-low: #E0F4FF;
+    --tertiary-low: #B0E0E6;
+    --tertiary-medium: #87CEEB;
+    --tertiary-high: #4682B4;
+    --tertiary-hover: #1A4B84;
+    --tertiary-50: #F0F8FF;
+    --tertiary-100: #E0F4FF;
+    --tertiary-200: #B0E0E6;
+    --tertiary-300: #87CEEB;
+    --tertiary-400: #6495ED;
+    --tertiary-500: #4682B4;
+    --tertiary-600: #1A4B84;
+    --tertiary-700: #15395F;
+    --tertiary-800: #10273A;
+    --tertiary-900: #0B1521;
+    --quaternary-low: #E0F4FF;
+    --highlight-bg: #FFF8DC; /* Cornsilk */
+    --highlight-low: #FFFACD; /* Lemon Chiffon */
+    --highlight-medium: #FFD700; /* Gold */
+    --highlight-high: #FFA500; /* Orange */
+    --danger-low: #FFE4E1; /* Misty Rose */
+    --danger-low-mid: rgba(255, 99, 71, 0.7);
+    --danger-medium: #FF6347; /* Tomato */
+    --danger-hover: #FF4500; /* Orange Red */
+    --success-low: #E0FFF0; /* Honeydew */
+    --success-medium: #3CB371; /* Medium Sea Green */
+    --success-hover: #2E8B57; /* Sea Green */
+    --love-low: #FFF0F5; /* Lavender Blush */
+    --wiki: #3CB371; /* Medium Sea Green */
+    --blend-primary-secondary-5: #F0F8FF;
+    --primary-med-or-secondary-med: #87CEEB;
+    --primary-med-or-secondary-high: #B0E0E6;
+    --primary-high-or-secondary-low: #4682B4;
+    --primary-low-mid-or-secondary-high: #B0E0E6;
+    --primary-low-mid-or-secondary-low: #B0E0E6;
+    --primary-or-primary-low-mid: #1A4B84;
+    --highlight-low-or-medium: #FFD700;
+    --tertiary-or-tertiary-low: #4682B4;
+    --tertiary-low-or-tertiary-high: #B0E0E6;
+    --tertiary-med-or-tertiary: #87CEEB;
+    --secondary-or-primary: #F0F8FF;
+    --tertiary-or-white: #4682B4;
+    --facebook-or-white: #4682B4;
+    --twitter-or-white: #1DA1F2;
+    --hljs-comment: #6495ED;
+    --hljs-number: #FF69B4;
+    --hljs-string: #3CB371;
+    --hljs-literal: #4682B4;
+    --hljs-tag: #1A4B84;
+    --hljs-attribute: #87CEEB;
+    --hljs-symbol: #FFA500;
+    --hljs-bg: #F0F8FF;
+    --hljs-builtin-name: #6495ED;
+    --google: #F0F8FF;
+    --google-hover: #E0F4FF;
+    --instagram: #FF69B4;
+    --instagram-hover: #FF1493;
+    --facebook: #4682B4;
+    --facebook-hover: #1A4B84;
+    --cas: #3CB371;
+    --twitter: #1DA1F2;
+    --github: #1A4B84;
+    --github-hover: #15395F;
+    --discord: #7289DA;
+    --discord-hover: #4E5D94;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --bronze: #CD7F32;
+    --shadow-modal: 0 8px 60px rgba(26, 75, 132, 0.3);
+    --shadow-composer: 0 -1px 40px rgba(26, 75, 132, 0.05);
+    --shadow-menu-panel: 0 8px 12px rgba(26, 75, 132, 0.1);
+    --shadow-card: 0 4px 14px rgba(26, 75, 132, 0.1);
+    --shadow-dropdown: 0 2px 12px 0 rgba(26, 75, 132, 0.1);
+    --shadow-header: 0 0 0 1px var(--primary-low);
+    --shadow-footer-nav: 0 0 2px 0 rgba(26, 75, 132, 0.2);
+    --shadow-focus-danger: 0 0 6px 0 var(--danger);
+    --float-kit-arrow-stroke-color: var(--primary-low);
+    --float-kit-arrow-fill-color: var(--secondary);
+}
