@@ -1,0 +1,127 @@
+:root{
+  --scheme-type: light;
+    --primary: #2E3440; /* Nord0: Polar Night */
+    --secondary: #ECEFF4; /* Nord6: Snow Storm */
+    --tertiary: #5E81AC; /* Nord10: Frost */
+    --quaternary: #81A1C1; /* Nord9: Frost */
+    --header_background: #D8DEE9; /* Nord4: Snow Storm */
+    --header_primary: #3B4252; /* Nord1: Polar Night */
+    --highlight: #EBCB8B; /* Nord13: Aurora */
+    --danger: #BF616A; /* Nord11: Aurora */
+    --success: #A3BE8C; /* Nord14: Aurora */
+    --love: #B48EAD; /* Nord15: Aurora */
+    --d-selected: #E5E9F0; /* Nord5: Snow Storm */
+    --d-hover: #ECEFF4; /* Nord6: Snow Storm */
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 46, 52, 64;
+    --primary-low-rgb: 216, 222, 233;
+    --primary-very-low-rgb: 236, 239, 244;
+    --secondary-rgb: 236, 239, 244;
+    --header_background-rgb: 216, 222, 233;
+    --tertiary-rgb: 94, 129, 172;
+    --highlight-rgb: 235, 203, 139;
+    --success-rgb: 163, 190, 140;
+    --primary-very-low: #ECEFF4; /* Nord6 */
+    --primary-low: #E5E9F0; /* Nord5 */
+    --primary-low-mid: #D8DEE9; /* Nord4 */
+    --primary-medium: #4C566A; /* Nord3 */
+    --primary-high: #434C5E; /* Nord2 */
+    --primary-very-high: #3B4252; /* Nord1 */
+    --primary-50: #ECEFF4;
+    --primary-100: #E5E9F0;
+    --primary-200: #D8DEE9;
+    --primary-300: #4C566A;
+    --primary-400: #434C5E;
+    --primary-500: #3B4252;
+    --primary-600: #2E3440;
+    --primary-700: #292E39;
+    --primary-800: #242933;
+    --primary-900: #1F232C;
+    --header_primary-low: #E5E9F0;
+    --header_primary-low-mid: #4C566A;
+    --header_primary-medium: #4C566A;
+    --header_primary-high: #434C5E;
+    --header_primary-very-high: #3B4252;
+    --secondary-low: #4C566A;
+    --secondary-medium: #81A1C1;
+    --secondary-high: #88C0D0;
+    --secondary-very-high: #ECEFF4;
+    --tertiary-very-low: #E5E9F0;
+    --tertiary-low: #D8DEE9;
+    --tertiary-medium: #81A1C1;
+    --tertiary-high: #5E81AC;
+    --tertiary-hover: #4C566A;
+    --tertiary-50: #ECEFF4;
+    --tertiary-100: #E5E9F0;
+    --tertiary-200: #D8DEE9;
+    --tertiary-300: #A3BE8C;
+    --tertiary-400: #88C0D0;
+    --tertiary-500: #81A1C1;
+    --tertiary-600: #5E81AC;
+    --tertiary-700: #4C566A;
+    --tertiary-800: #434C5E;
+    --tertiary-900: #3B4252;
+    --quaternary-low: #E5E9F0;
+    --highlight-bg: #EBCB8B;
+    --highlight-low: #D08770;
+    --highlight-medium: #EBCB8B;
+    --highlight-high: #A3BE8C;
+    --danger-low: #E5E9F0;
+    --danger-low-mid: rgba(191, 97, 106, 0.7);
+    --danger-medium: #BF616A;
+    --danger-hover: #A54A52;
+    --success-low: #E5E9F0;
+    --success-medium: #A3BE8C;
+    --success-hover: #8AA872;
+    --love-low: #E5E9F0;
+    --wiki: #A3BE8C;
+    --blend-primary-secondary-5: #ECEFF4;
+    --primary-med-or-secondary-med: #81A1C1;
+    --primary-med-or-secondary-high: #88C0D0;
+    --primary-high-or-secondary-low: #434C5E;
+    --primary-low-mid-or-secondary-high: #D8DEE9;
+    --primary-low-mid-or-secondary-low: #D8DEE9;
+    --primary-or-primary-low-mid: #2E3440;
+    --highlight-low-or-medium: #EBCB8B;
+    --tertiary-or-tertiary-low: #5E81AC;
+    --tertiary-low-or-tertiary-high: #D8DEE9;
+    --tertiary-med-or-tertiary: #81A1C1;
+    --secondary-or-primary: #ECEFF4;
+    --tertiary-or-white: #5E81AC;
+    --facebook-or-white: #5E81AC;
+    --twitter-or-white: #88C0D0;
+    --hljs-comment: #4C566A;
+    --hljs-number: #B48EAD;
+    --hljs-string: #A3BE8C;
+    --hljs-literal: #81A1C1;
+    --hljs-tag: #5E81AC;
+    --hljs-attribute: #8FBCBB;
+    --hljs-symbol: #D08770;
+    --hljs-bg: #ECEFF4;
+    --hljs-builtin-name: #88C0D0;
+    --google: #ECEFF4;
+    --google-hover: #E5E9F0;
+    --instagram: #B48EAD;
+    --instagram-hover: #9D7594;
+    --facebook: #5E81AC;
+    --facebook-hover: #4C566A;
+    --cas: #A3BE8C;
+    --twitter: #88C0D0;
+    --github: #2E3440;
+    --github-hover: #3B4252;
+    --discord: #5E81AC;
+    --discord-hover: #4C566A;
+    --gold: #EBCB8B;
+    --silver: #D8DEE9;
+    --bronze: #D08770;
+    --shadow-modal: 0 8px 60px rgba(46, 52, 64, 0.5);
+    --shadow-composer: 0 -1px 40px rgba(46, 52, 64, 0.1);
+    --shadow-menu-panel: 0 8px 12px rgba(46, 52, 64, 0.1);
+    --shadow-card: 0 4px 14px rgba(46, 52, 64, 0.1);
+    --shadow-dropdown: 0 2px 12px 0 rgba(46, 52, 64, 0.1);
+    --shadow-header: 0 0 0 1px var(--primary-low);
+    --shadow-footer-nav: 0 0 2px 0 rgba(46, 52, 64, 0.2);
+    --shadow-focus-danger: 0 0 6px 0 var(--danger);
+    --float-kit-arrow-stroke-color: var(--primary-low);
+    --float-kit-arrow-fill-color: var(--secondary);
+}
