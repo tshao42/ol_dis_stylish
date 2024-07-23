@@ -1,0 +1,181 @@
+:root{
+  --scheme-type: light;
+    --primary: #FF4D6D; /* Bright Pink */
+    --secondary: #FFFFFF; /* White */
+    --tertiary: #FF8FA3; /* Light Pink */
+    --quaternary: #FFB3C1; /* Very Light Pink */
+    --header_background: #FFF0F5; /* Lavender Blush */
+    --header_primary: #590D22; /* Deep Red */
+    --highlight: #FFC2D1; /* Pale Pink */
+    --danger: #C9184A; /* Cherry */
+    --success: #4CAF50; /* Green */
+    --love: #FF758F; /* Salmon Pink */
+    --d-selected: #FFE5EC; /* Misty Rose */
+    --d-hover: #FFF0F5; /* Lavender Blush */
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 255, 77, 109;
+    --primary-low-rgb: 255, 229, 236;
+    --primary-very-low-rgb: 255, 240, 245;
+    --secondary-rgb: 255, 255, 255;
+    --header_background-rgb: 255, 240, 245;
+    --tertiary-rgb: 255, 143, 163;
+    --highlight-rgb: 255, 194, 209;
+    --success-rgb: 76, 175, 80;
+    --primary-very-low: #FFF0F5; /* Lavender Blush */
+    --primary-low: #FFE5EC; /* Misty Rose */
+    --primary-low-mid: #FFB3C1; /* Very Light Pink */
+    --primary-medium: #FF758F; /* Salmon Pink */
+    --primary-high: #FF4D6D; /* Bright Pink */
+    --primary-very-high: #C9184A; /* Cherry */
+    --primary-50: #FFF0F5;
+    --primary-100: #FFE5EC;
+    --primary-200: #FFD1DC;
+    --primary-300: #FFB3C1;
+    --primary-400: #FF8FA3;
+    --primary-500: #FF758F;
+    --primary-600: #FF4D6D;
+    --primary-700: #DB3A5A;
+    --primary-800: #B62E48;
+    --primary-900: #590D22;
+    --header_primary-low: #FFE5EC;
+    --header_primary-low-mid: #FFB3C1;
+    --header_primary-medium: #FF758F;
+    --header_primary-high: #FF4D6D;
+    --header_primary-very-high: #C9184A;
+    --secondary-low: #FF4D6D;
+    --secondary-medium: #FF758F;
+    --secondary-high: #FFB3C1;
+    --secondary-very-high: #FFE5EC;
+    --tertiary-very-low: #FFE5EC;
+    --tertiary-low: #FFD1DC;
+    --tertiary-medium: #FFB3C1;
+    --tertiary-high: #FF8FA3;
+    --tertiary-hover: #FF4D6D;
+    --tertiary-50: #FFF0F5;
+    --tertiary-100: #FFE5EC;
+    --tertiary-200: #FFD1DC;
+    --tertiary-300: #FFB3C1;
+    --tertiary-400: #FF8FA3;
+    --tertiary-500: #FF758F;
+    --tertiary-600: #FF4D6D;
+    --tertiary-700: #DB3A5A;
+    --tertiary-800: #B62E48;
+    --tertiary-900: #590D22;
+    --quaternary-low: #FFE5EC;
+    --highlight-bg: #FFC2D1;
+    --highlight-low: #FFD1DC;
+    --highlight-medium: #FFB3C1;
+    --highlight-high: #FF8FA3;
+    --danger-low: #FFCCD5;
+    --danger-low-mid: rgba(201, 24, 74, 0.7);
+    --danger-medium: #C9184A;
+    --danger-hover: #A4133C;
+    --success-low: #E8F5E9;
+    --success-medium: #4CAF50;
+    --success-hover: #45A049;
+    --love-low: #FFE5EC;
+    --wiki: #4CAF50;
+    --blend-primary-secondary-5: #FFF0F5;
+    --primary-med-or-secondary-med: #FF758F;
+    --primary-med-or-secondary-high: #FFB3C1;
+    --primary-high-or-secondary-low: #FF4D6D;
+    --primary-low-mid-or-secondary-high: #FFB3C1;
+    --primary-low-mid-or-secondary-low: #FFB3C1;
+    --primary-or-primary-low-mid: #FF4D6D;
+    --highlight-low-or-medium: #FFB3C1;
+    --tertiary-or-tertiary-low: #FF8FA3;
+    --tertiary-low-or-tertiary-high: #FFD1DC;
+    --tertiary-med-or-tertiary: #FFB3C1;
+    --secondary-or-primary: #FFFFFF;
+    --tertiary-or-white: #FF8FA3;
+    --facebook-or-white: #FF8FA3;
+    --twitter-or-white: #FF4D6D;
+    --hljs-comment: #FF758F;
+    --hljs-number: #C9184A;
+    --hljs-string: #4CAF50;
+    --hljs-literal: #FF8FA3;
+    --hljs-tag: #FF4D6D;
+    --hljs-attribute: #FFB3C1;
+    --hljs-symbol: #FF758F;
+    --hljs-bg: #FFF0F5;
+    --hljs-builtin-name: #FF4D6D;
+    --google: #FFFFFF;
+    --google-hover: #FFF0F5;
+    --instagram: #C9184A;
+    --instagram-hover: #A4133C;
+    --facebook: #FF8FA3;
+    --facebook-hover: #FF4D6D;
+    --cas: #4CAF50;
+    --twitter: #FF4D6D;
+    --github: #590D22;
+    --github-hover: #7E2639;
+    --discord: #FF8FA3;
+    --discord-hover: #FF4D6D;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --bronze: #CD7F32;
+    --shadow-modal: 0 8px 60px rgba(255, 77, 109, 0.3);
+    --shadow-composer: 0 -1px 40px rgba(255, 77, 109, 0.05);
+    --shadow-menu-panel: 0 8px 12px rgba(255, 77, 109, 0.1);
+    --shadow-card: 0 4px 14px rgba(255, 77, 109, 0.1);
+    --shadow-dropdown: 0 2px 12px 0 rgba(255, 77, 109, 0.1);
+    --shadow-header: 0 0 0 1px var(--primary-low);
+    --shadow-footer-nav: 0 0 2px 0 rgba(255, 77, 109, 0.2);
+    --shadow-focus-danger: 0 0 6px 0 var(--danger);
+    --float-kit-arrow-stroke-color: var(--primary-low);
+    --float-kit-arrow-fill-color: var(--secondary);
+}
+
+:root{
+  /* ... (previous CSS rules remain unchanged) ... */
+
+    /* Category Colors */
+    --category-1-color: #FF4D6D;
+    --category-18-color: #4CAF50; /* Keeping this green for variety */
+    --category-275-color: #FF758F;
+    --category-368-color: #FFB3C1;
+    --category-394-color: #FF8FA3;
+    --category-419-color: #FF4D6D;
+    --category-429-color: #FF758F;
+    --category-432-color: #FFB3C1;
+    --category-478-color: #FF8FA3;
+    --category-525-color: #FF4D6D;
+    --category-560-color: #FF758F;
+    --category-564-color: #FFB3C1;
+    --category-590-color: #FF8FA3;
+    --category-591-color: #FF4D6D;
+    --category-609-color: #FF758F;
+    --category-611-color: #FFB3C1;
+    --category-612-color: #FF8FA3;
+    --category-618-color: #FF4D6D;
+    --category-619-color: #FF758F;
+    --category-636-color: #FFB3C1;
+    --category-647-color: #FF8FA3;
+    --category-658-color: #FF4D6D;
+    --category-659-color: #FF758F;
+    --category-660-color: #FFB3C1;
+    --category-661-color: #FF8FA3;
+    --category-664-color: #FF4D6D;
+    --category-726-color: #FF758F;
+    --category-730-color: #FFB3C1;
+    --category-731-color: #FF8FA3;
+    --category-757-color: #FF4D6D;
+    --category-813-color: #FF758F;
+    --category-816-color: #FFB3C1;
+    --category-835-color: #FF8FA3;
+    --category-838-color: #FF4D6D;
+    --category-849-color: #FF758F;
+    --category-851-color: #FFB3C1;
+    --category-876-color: #FF8FA3;
+    --category-877-color: #FF4D6D;
+    --category-893-color: #FF758F;
+    --category-910-color: #FFB3C1;
+    --category-923-color: #FF8FA3;
+    --category-939-color: #FF4D6D;
+    --category-956-color: #FF758F;
+    --category-970-color: #FFB3C1;
+    --category-1000-color: #FF8FA3;
+    --category-1001-color: #FF4D6D;
+    --category-1002-color: #FF758F;
+    --category-1046-color: #FFB3C1;
+}
